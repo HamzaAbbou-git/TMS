@@ -82,7 +82,9 @@ const SignIn = () => {
             </div>
             <button 
                 type="submit"
-                className="bg-white border hover:bg-gray-100 border-gray-400 text-indigo-700 rounded-full w-full h-10">
+                className="bg-white border hover:bg-gray-100 border-gray-400 text-indigo-700 rounded-full w-full h-10"
+                onClick={() => {window.location.href = '/signup'}}
+                >
                 S'inscrire
             </button>
         </form>

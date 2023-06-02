@@ -103,7 +103,9 @@ const SignUp = () => {
             </div>
             <button 
                 type="submit"
-                className="bg-indigo-700 text-white rounded-full w-full mt-8 h-10">
+                className="bg-indigo-700 text-white rounded-full w-full mt-8 h-10"
+                onClick={() => {window.location.href = '/signin'}}
+                >
                 S'inscrire
             </button>
             <div className="my-5 flex items-center ">
